@@ -1,0 +1,20 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+  <projectname>MyAwesomeSDFProject</projectname>
+  <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="true">CUSTOMRECORDS</feature>
+      <feature required="true">ITEMOPTIONS</feature>
+      <feature required="false">MULTILOCINVT</feature>
+      <feature required="false">OPPORTUNITIES</feature>
+      <feature required="false">ACCOUNTING</feature>
+      <feature required="false">WEBSITE</feature>
+    </features>
+    <objects>
+      <object>customlist121</object>
+      <object>custitem3</object>
+      <object>customrecord_calculator</object>
+    </objects>
+    <applications/>
+  </dependencies>
+</manifest>
